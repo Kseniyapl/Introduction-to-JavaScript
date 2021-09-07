@@ -17,10 +17,17 @@ Do the following:
    1. Create a variable called votingAge and assign it a value
    2. Console log true if age is 18 or higher
 
+
    HINT: no function required
 */
+const votingAge = 18;
 
-
+if (votingAge >= 18){
+  console.log("task 1a", true);
+} 
+else{
+  console.log("task 1a", false)
+}
 
 /*
 Task 1b - Values
@@ -33,9 +40,15 @@ Do the following:
    HINT: no function required
 */
 
+let weather = 'sun';
+let umbrella = "Need umbrella";
 
-
-
+if(weather === "sun"){
+  console.log("Don't need umbrella")
+}
+else {
+  console.log(umbrella)
+}
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -47,7 +60,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+const number = "1999";
+console.log("task 1c: ", Number(number))
 
 
 
@@ -60,9 +74,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+
+function multiply(num1, num2){
+  return num1 * num2
 }
+console.log('Task 1d: ', multiply(2, 3))
+
 
 
 
